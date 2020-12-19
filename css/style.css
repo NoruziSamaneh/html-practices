@@ -30,3 +30,19 @@ p>span {
 li+span {
     background-color: yellow;
 }
+
+footer:hover a {
+    color: purple;
+}
+
+li:hover a {
+    color: purple;
+}
+
+li:hover {
+    color: purple;
+}
+
+p.text::first-letter {
+    font-weight: bold;
+}
