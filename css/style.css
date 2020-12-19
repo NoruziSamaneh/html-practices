@@ -22,3 +22,11 @@ nav a[href="./contact_us.html"] {
 a[href$=html] {
     background-color: pink;
 }
+
+p>span {
+    background-color: orange;
+}
+
+li+span {
+    background-color: yellow;
+}
