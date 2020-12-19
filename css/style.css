@@ -1,48 +1,57 @@
-#tabel {
-    text-align: center;
-}
-
-.text.txt {
-    font-weight: bold;
-    text-align: center;
-}
-
-table tr .thc {
-    color: red;
-}
-
-nav a[href] {
-    color: black;
-}
-
-nav a[href="./contact_us.html"] {
-    color: green;
-}
-
-a[href$=html] {
-    background-color: pink;
-}
-
-p>span {
-    background-color: orange;
-}
-
-li+span {
-    background-color: yellow;
-}
-
-footer:hover a {
-    color: purple;
-}
-
-li:hover a {
-    color: purple;
-}
-
-li:hover {
-    color: purple;
-}
-
-p.text::first-letter {
-    font-weight: bold;
-}
+        #tabel {
+            text-align: center;
+        }
+        
+        .text.txt {
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        table tr .thc {
+            color: red;
+        }
+        
+        nav a[href] {
+            color: black;
+        }
+        
+        nav a[href="./contact_us.html"] {
+            color: green;
+        }
+        
+        a[href$=html] {
+            background-color: pink;
+        }
+        
+        p>span {
+            background-color: orange;
+        }
+        
+        li+span {
+            background-color: yellow;
+        }
+        
+        footer:hover a {
+            color: purple;
+        }
+        
+        li:hover a {
+            color: purple;
+        }
+        
+        li:hover {
+            color: purple;
+        }
+        
+        p.text::first-letter {
+            font-weight: bold;
+        }
+        
+        button {
+            padding: 5px;
+            border: 2px solid black;
+        }
+        
+        iframe {
+            margin: 0% 20%;
+        }
