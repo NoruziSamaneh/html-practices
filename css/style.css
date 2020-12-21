@@ -18,6 +18,10 @@
            letter-spacing: normal;
        }
        
+       html {
+           font-size: 100%;
+       }
+       
        title,
        h1,
        label,
@@ -76,12 +80,12 @@
        }
        
        button {
-           padding: 5px;
+           padding: .5rem;
            border: 2px solid black;
        }
        
        iframe {
-           margin: 0% 20%;
+           margin: 0rem 15rem;
        }
        
        header.head {
@@ -102,7 +106,7 @@
        }
        
        h1 {
-           padding: 50px 0;
+           padding: 3rem 0;
            text-shadow: 1px 1px 1px rgb(0, 0, 0, .2);
        }
        
