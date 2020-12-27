@@ -233,3 +233,21 @@
       font-size: 12px;
       padding: 0 .5rem;
   }
+  
+  .formsec {
+      width: 50%;
+      margin: 0 auto;
+  }
+  
+  .formcontainer label,
+  input {
+      display: block;
+      margin-bottom: .5rem;
+  }
+  
+  .formcontainer input.formcontrol {
+      width: 100%;
+      padding: .2rem .2rem;
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, .3);
+  }
