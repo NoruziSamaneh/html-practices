@@ -293,3 +293,11 @@ input:not([type="checkbox"]) {
 .checkbox input:checked~.checkmark::after {
     display: block;
 }
+
+.formcontainer input:focus {
+    background: rgb(246, 247, 248);
+}
+
+.formcontainer textarea:focus {
+    background: rgb(246, 247, 248);
+}
