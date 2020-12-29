@@ -309,6 +309,62 @@
         background: rgb(246, 247, 248);
     }
     
+    .cube-container {
+        width: 200px;
+        height: 200px;
+        perspective: 600px;
+        margin: 2rem auto;
+    }
+    
+    .cube {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform-style: preserve-3d;
+        transform: rotateX(45deg);
+    }
+    
+    .cube-face {
+        width: 200px;
+        height: 200px;
+        border: .1rem solid black;
+        position: absolute;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .cube-front {
+        background: rgba(255, 0, 0, .7);
+        transform: rotateY(0deg) translateZ(100px);
+    }
+    
+    .cube-back {
+        background: rgba(0, 255, 0, .7);
+        transform: rotateY(180deg) translateZ(100px);
+    }
+    
+    .cube-top {
+        background: rgba(0, 0, 255, .7);
+        transform: rotateX(90deg) translateZ(100px);
+    }
+    
+    .cube-bottom {
+        background: rgba(255, 0, 255, .7);
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+    
+    .cube-right {
+        background: rgba(255, 255, 0, .7);
+        transform: rotateY(90deg) translateZ(100px);
+    }
+    
+    .cube-left {
+        background: rgba(0, 255, 255, .7);
+        transform: rotateY(-90deg) translateZ(100px);
+    }
+    
     @media(min-width:768px) {
         .pic {
             width: calc(50% - 2.2rem);
