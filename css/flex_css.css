@@ -1,0 +1,41 @@
+    * {
+        font-family: iransans;
+        font-weight: normal;
+        font-size: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .siteheader {
+        display: flex;
+        justify-content: space-between;
+        background-color: #56727c;
+        padding: .8rem;
+    }
+    
+    .siteheader_section {
+        display: flex;
+        align-items: center;
+    }
+    
+    .siteheader-items {
+        padding: .2rem .5rem;
+        margin-left: .5rem;
+        font-size: 13px;
+    }
+    
+    .siteheader_logo {
+        color: white;
+        font-size: 1.1rem;
+    }
+    
+    .siteheader-items.active {
+        color: white;
+        background-color: #415f69;
+        border-radius: 4px;
+    }
+    
+    .siteheaderitems_button {
+        cursor: pointer;
+        color: #d9e9ef;
+    }
