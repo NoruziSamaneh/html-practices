@@ -27,6 +27,7 @@
     .siteheader_logo {
         color: white;
         font-size: 1.1rem;
+        line-height: 0;
     }
     
     .siteheader-items.active {
@@ -38,4 +39,47 @@
     .siteheaderitems_button {
         cursor: pointer;
         color: #d9e9ef;
+    }
+    
+    .mainitem {
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .listitem {
+        max-width: 400px;
+        padding: .2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .listitem+.listitem {
+        border-top: 1px solid #D7DBDD;
+    }
+    
+    .listitem_icon,
+    .listitem_description {
+        padding: .5rem;
+    }
+    
+    .listicon_reverse {
+        flex-direction: row-reverse;
+    }
+    
+    .listitem_icon {
+        font-size: 1.7rem;
+        line-height: 0;
+    }
+    
+    .icon {
+        color: #bcd2da;
+    }
+    
+    .listitem_description {
+        font-size: 14px;
+        color: #86969c;
     }
