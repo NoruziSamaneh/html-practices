@@ -83,3 +83,15 @@
         font-size: 14px;
         color: #86969c;
     }
+    
+    footer {
+        background-color: #56727c;
+        color: white;
+        padding: 0 1rem;
+    }
+    
+    body {
+        max-width: 1000px;
+        min-height: 100%;
+        margin: auto;
+    }
