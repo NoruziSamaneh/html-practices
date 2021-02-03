@@ -14,7 +14,7 @@
     <hr>
     <!-- heading practices -->
     <h1>h1. Bootstrap heading</h1>
-    <p class="h2">p by class heading - h2. Bootstrap heading</p>
+    <p class="h2 text-wrap bg-primary" style="width: 200px;">p by class heading - h2. Bootstrap heading</p>
     <h3>
         Fancy display heading
         <small class="text-muted">With faded secondary text for h3</small>
@@ -46,7 +46,7 @@
     <p class="text-end">Lorem ipsum:
         <blockquote class="blockquote text-end"> dolor sit amet consectetur adipisicing elit.</blockquote>
     </p>
-    <figure class="text-center">
+    <figure class="text-center text-wrap">
         <blockquote class="blockquote">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </blockquote>
@@ -140,15 +140,15 @@
     <div class="d-block">d block will show in all device</div>
     <hr>
     <!-- flexbox section -->
-    <div class="d-flex justify-content-around">
-        <div>flex item 1</div>
-        <div>flex item 2</div>
-        <div>flex item 3</div>
+    <div class="d-flex justify-content-around ">
+        <div class="text-capitalize fst-italic">flex item 1</div>
+        <div class="text-capitalize fst-italic">flex item 2</div>
+        <div class="text-capitalize fst-italic">flex item 3</div>
     </div>
     <hr>
     <br>
     <!-- position section -->
-    <div class="position-relative" style="height: 100px; background: #f5f5f5;">
+    <div class="position-relative mw-100 mx-4" style="height: 100px; background: #f5f5f5;">
         <div class="position-absolute top-0 start-0 " style="width: 2rem; height: 2rem; background: #000;"></div>
         <div class="position-absolute top-0 end-0" style="width: 2rem; height: 2rem; background: #000;"></div>
         <div class="position-absolute top-50 start-50" style="width: 2rem; height: 2rem; background: #000;"></div>
@@ -156,6 +156,20 @@
         <div class="position-absolute bottom-0 start-0" style="width: 2rem; height: 2rem; background: #000;"></div>
         <div class="position-absolute bottom-0 end-0" style="width: 2rem; height: 2rem; background: #000;"></div>
     </div>
+    <hr>
+    <!-- text practice -->
+    <div class="text-nowrap bg-success text-lowercase fw-light" style="width: 8rem;">
+        This Text should overflow the parent.
+    </div>
+    <p class="text-break text-uppercase fw-bold">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+    <p class="lh-1 font-monospace">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula
+        ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+    <p class="lh-sm text-decoration-underline">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula
+        ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+    <p class="lh-base">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula
+        ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
+    <p class="lh-lg">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Cras mattis pannenkoek purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam id dolor id nibh ultricies vehicula
+        ut id elit. Cras mattis consectetur purus sit amet fermentum.</p>
     <script src=" ./libraries/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js "></script>
 </body>
 
