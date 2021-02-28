@@ -689,7 +689,399 @@
         </div>
     </div>
     <hr>
+    <!-- practice forms -->
+    <div class="mb-3 mx-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mx-3 mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea id="exampleFormControlTextarea1" cols="10" rows="5" class="form-control"></textarea>
+    </div>
+    <div class="mx-3 mb-3">
+        <input type="text" class="form-control mb-3" placeholder="Disabled input" disabled>
+        <input type="text" class="form-control" placeholder="readonly input" readonly>
+    </div>
+    <div class="row mx-3 mb-3">
+        <label for="staticEmail" class="col-form-label col-2">Email</label>
+        <div class="col-8">
+            <input type="text" disabled class="form-control-plaintext" id="staticEmail" value="email@example.com">
+        </div>
+        <div class="col-2">
+            <button type="submit" class="btn btn-primary">Confirm identity</button>
+        </div>
+    </div>
+    <div class="mx-3 mb-3">
+        <label for="formFile" class="form-label">Default file input example</label>
+        <input type="file" class="form-control" id="formFile">
+    </div>
+    <div class="mx-3 mb-3">
+        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+        <input type="file" class="form-control mb-3" id="formFileMultiple" multiple>
+        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+    </div>
+    <div class="mx-3">
+        <label for="exampleDataList" class="form-label">Datalist example</label>
+        <input class="form-control" list="datalistoptions" id="exampleDataList" placeholder="Type to search...">
+        <datalist id="datalistoptions">
+            <option value="San Francisco"></option>
+            <option value="New York"></option>
+            <option value="Seattle"></option>
+            <option value="Los Angeles"></option>
+            <option value="Chicago"></option>
+        </datalist>
+    </div>
+    <hr>
+    <div class="mx-3 mb-3">
+        <select class="form-select form-select-sm">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        <br><br>
+        <select class="form-select" multiple size="3">
+            <option selected>Open this select menu</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+    </div>
+    <br><br>
+    <div class="form-check mx-3">
+        <input type="checkbox" class="form-check-input" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+            Default checkbox
+          </label>
+    </div>
+    <div class="form-check mx-3 mb-3">
+        <input type="checkbox" class="form-check-input" id="flexCheckChecked" checked disabled>
+        <label class="form-check-label" for="flexCheckChecked">
+            Checked checkbox
+          </label>
+    </div>
+    <div class="form-check mx-3">
+        <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault1" disabled>
+        <label class="form-check-label" for="flexRadioDefault1">
+            Default radio
+      </label>
+    </div>
+    <div class="form-check mx-3 mb-3">
+        <input type="radio" class="form-check-input" name="flexRadioDefault" id="flexRadioDefault2" checked>
+        <label class="form-check-label" for="flexRadioDefault2">
+            Default checked radio
+      </label>
+    </div>
+    <div class="form-check form-switch mx-3">
+        <input type="checkbox" class="form-check-input" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">
+            Default switch checkbox input
+      </label>
+    </div>
+    <div class="form-check form-switch mx-3 mb-3">
+        <input type="checkbox" class="form-check-input" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">
+            Checked switch checkbox input
+      </label>
+    </div>
+    <div class="form-check form-check-inline mx-3">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+        <label class="form-check-label" for="inlineCheckbox1">1</label>
+    </div>
+    <div class="form-check form-check-inline mx-3">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">2</label>
+    </div>
+    <div class="form-check form-check-inline mx-3 mb-3">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
+        <label class="form-check-label" for="inlineCheckbox3">3 (disabled)</label>
+    </div>
+    <div class="mx-3 mb-3">
+        <input type="checkbox" class="btn-check" id="btn-check">
+        <label for="btn-check" class="btn btn-primary">Single toggle checkbox</label>
+        <input type="radio" class="btn-check" name="options" id="option1" checked>
+        <label for="option1" class="btn btn-secondary">Checked radio</label>
+        <input type="checkbox" class="btn-check" id="btn-check-outlined">
+        <label for="btn-check-outlined" class="btn btn-outline-primary">Single toggle outline check</label>
+        <input type="radio" class="btn-check" name="options-outlined" id="danger-outlined" checked disabled>
+        <label for="danger-outlined" class="btn btn-outline-danger">Danger checkes disabled radio</label>
+    </div>
+    <div class="mx-3">
+        <label for="customRange1" class="form-label">Example range</label>
+        <input type="range" class="form-range" id="customRange1" min="0" max="5" step="0.5">
+    </div>
+    <br><br>
+    <div class="mx-3 mb-3 ">
+        <div class="input-group flex-nowrap mb-3">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Username">
+        </div>
+        <div class="input-group input-group-sm mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username">
+            <span class="input-group-text">@example.com</span>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input type="checkbox" class="form-check-input">
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-text">
+                <input type="radio" class="form-check-input">
+            </div>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">First and last name</span>
+            <input type="text" class="form-control">
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <span class="input-group-text">0.00</span>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button">Button</button>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#" class="dropdown-item">Action</a>
+                </li>
+                <li><a href="#" class="dropdown-item">Another action</a>
+                </li>
+                <li><a href="#" class="dropdown-item">Something else here</a>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a>
+                </li>
+            </ul>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <button type="button" class="btn btn-outline-secondary">Action</button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control">
+        </div>
+        <div class="input-group mb-3">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            <select class="form-select" id="inputGroupSelect01">
+              <option selected>Choose...</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+        </div>
+        <form class="row g-3  row-cols-lg-auto align-items-center mb-3">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" placeholder="Username">
+                </div>
+            </div>
+            <div class="col-12">
+                <select id="inlineFormSelectPref" class="form-select">
+                    <option selected>Choose...</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+        Remember me
+      </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-4">
+                <label for="validationCustom01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-4">
+                <label for="validationCustom02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-4">
+                <label for="validationCustomUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" required>
+                    <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="invalidCheck" required>
+                    <label for="invalidCheck" class="form-check-label">Agree to terms and conditions</label>
+                    <div class="invalid-feedback">You must agree before submitting.</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+        <hr>
+        <form class="row g-3">
+            <div class="col-4">
+                <label for="validationServer01" class="form-label">First name</label>
+                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
+                <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-4">
+                <label for="validationServer02" class="form-label">Last name</label>
+                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto" required>
+                <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="col-4">
+                <label for="validationServerUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                    <input type="text" class="form-control is-invalid" id="validationServerUsername" required>
+                    <div class="invalid-feedback">Please choose a username.</div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+        <hr>
+        <form class="was-validated">
+            <div class="mb-3">
+                <label for="validationTextarea" class="form-label">Textarea</label>
+                <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                <div class="invalid-feedback">Please enter a message in the textarea.</div>
+            </div>
+            <div class="form-check mb-3">
+                <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+                <label for="validationFormCheck1" class="form-check-label">Check this checkbox</label>
+                <div class="invalid-feedback">Example invalid feedback text</div>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" id="validationFormCheck2" required>
+                <label for="validationFormCheck2" class="form-check-label">Toggle this radio</label>
+            </div>
+            <div class="form-check mb-3">
+                <input type="radio" class="form-check-input" id="validationFormCheck3" required>
+                <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
+                <div class="invalid-feedback">More example invalid feedback text</div>
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+            </div>
+        </form>
+        <hr>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-4 position-relative">
+                <label for="validationTooltip01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-4 position-relative">
+                <label for="validationTooltip02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername" required>
+                    <div class="invalid-tooltip">
+                        Please choose a unique and valid username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 position-relative">
+                <label for="validationTooltip03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-3 position-relative">
+                <label for="validationTooltip04" class="form-label">State</label>
+                <select class="form-select" id="validationTooltip04" required>
+                <option selected disabled>Choose...</option>
+                <option>...</option>
+              </select>
+                <div class="invalid-tooltip">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+        </form>
+    </div>
+    <hr>
     <script src=" ./libraries/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js "></script>
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            var forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.prototype.slice.call(forms)
+                .forEach(function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (!form.checkValidity()) {
+                            event.preventDefault()
+                            event.stopPropagation()
+                        }
+
+                        form.classList.add('was-validated')
+                    }, false)
+                })
+        })()
+    </script>
 </body>
 
 </html>
