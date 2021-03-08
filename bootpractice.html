@@ -1102,6 +1102,116 @@
     <span class="d-inline-block" tabindex="0" data-bs-toggle="tooltip" title="Disabled tooltip" data-bs-delay="700">
         <button class="btn btn-primary" type="button" disabled>Disabled button</button>
       </span>
+    <hr>
+    <!-- modal section -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch demo modal</button>
+    <div class="modal fade" tabindex="-1" id="exampleModal" aria-hidden="true" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-4">col-4</div>
+                            <div class="col-4 ms-auto">col-4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 ms-auto">col-3</div>
+                            <div class="col-2 ms-auto">col-2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum,
+                        <a href="#" role="button" class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> dolor sit amet consectetur adipisicing elit. Ipsam accusamus
+                        exercitationem,
+                        <a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> sapiente repudiandae laboriosam soluta recusandae ratione architecto laborum eaque iusto unde reiciendis dolore magnam dignissimos facere a in officia! Lorem ipsum
+                        dolor sit amet consectetur adipisicing elit. Ullam iusto libero quibusdam natus quam est pariatur impedit,
+                        <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> provident sed a, excepturi eveniet dolores porro alias dolore in. Quas, perferendis quia? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae
+                        fugiat doloribus voluptatem repellat deserunt ea reiciendis provident eos rerum natus id modi ipsam explicabo inventore, placeat nesciunt, quod, rem quasi! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt voluptatum
+                        quis, quos expedita atque iure explicabo at laborum adipisci rerum id, eius, rem neque et! Tempore repellat corporis porro facilis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum error incidunt, aspernatur laboriosam
+                        deserunt culpa expedita quam non molestiae vitae harum, facilis commodi dicta. Voluptatibus est accusantium animi inventore odit.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- nav section -->
+    <ul class="nav justify-content-center nav-tabs nav-justified" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" role="tab" aria-controls="home" aria-selected="true" href="#">Home</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" role="tab" aria-controls="profile" aria-selected="false" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Home Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non dolorem earum incidunt autem aspernatur accusamus officia libero! Ad sint odit aperiam voluptates accusamus magnam omnis. Quos doloremque veritatis omnis ullam.</div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">profile Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas veritatis fugiat, quasi temporibus distinctio molestias ipsam omnis sit vero? Esse, nam ipsa eius ipsum accusantium illo voluptate totam dolores?</div>
+    </div>
+    <br><br>
+    <nav class="nav justify-content-end nav-pills nav-fill">
+        <a class=" nav-link active " href="# " aria-current="page">Active</a>
+        <a class="nav-link " href="# ">Link</a>
+        <a class="nav-link " href="# ">Link</a>
+        <a class="nav-link disabled " href="# " tabindex="-1" aria-disabled="true">Disabled</a>
+    </nav>
+    <br><br>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false" href="#">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+    </ul>
     <script src=" ./libraries/bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js "></script>
     <script>
         // Example starter JavaScript for disabling form submissions if there are invalid fields
@@ -1124,11 +1234,11 @@
                     }, false)
                 })
         })()
-        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover "]'))
         var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl)
         })
-        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip "]'))
         var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
