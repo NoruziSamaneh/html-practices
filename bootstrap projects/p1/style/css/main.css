@@ -1,0 +1,45 @@
+    body {
+        font-family: Vazir;
+        text-align: right;
+        direction: rtl;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    li a:hover {
+        text-decoration: underline !important;
+    }
+    
+    .jumbotron {
+        padding: 3rem 0;
+        margin-bottom: 0;
+    }
+    
+    .jumbotron .container {
+        max-width: 40rem;
+    }
+    
+    .jumbotron p:last-child {
+        margin-bottom: 0;
+    }
+    
+    .jumbotron-heading {
+        font-weight: 300;
+    }
+    
+    .box-shadow {
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    }
+    
+    footer div p {
+        text-align: unset;
+        margin-bottom: 0;
+    }
+    
+    @media (min-width: 768px) {
+        .jumbotron {
+            padding: 6rem 0;
+        }
+    }
