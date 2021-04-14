@@ -1,0 +1,36 @@
+body{
+  direction: rtl;
+  text-align: right;
+  font-family: Vazir;
+}
+
+.pricing-header{
+  max-width: 700px;
+}
+
+.container{
+  max-width: 960px;
+}
+
+.btn-lg{
+  width: 100%;
+}
+
+footer ul li a{
+  text-decoration: none !important;
+}
+
+footer ul li a:hover {
+  text-decoration: underline !important;
+}
+
+@media (min-width: 768px){
+  .card-group .card{
+    margin-left: 1rem !important;
+  }
+  
+  .card-group .card:last-child{
+    margin-left: 0 !important;
+  }
+}
+
